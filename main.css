@@ -1,9 +1,24 @@
 /*organize styling top to bottom tags/classes/id's
 tags styling here*/
 body{
+    position: relative;
+    background-color: #fff;
+    width: 1000px;
+    margin: 0;
+
+}
+header{
+    height: 190px;
+    background-color: gray
 
 }
 section{
+    display: block;
+
+}
+img{
+    width: 100%;
+    background-size: cover;
 
 }
 footer{
@@ -12,31 +27,77 @@ footer{
 /*class styling starts here
 as many as you like*/
 .container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+
+
+}
+.gnomeh{
+    width: 30%;
+}
+.gnomeh p{
+    font-family:sans ;
+    font-size: 3em;
+    color: darkgoldenrod;
+
+}
+.gnometxt{
+    float: left;
+    width: 100%;
+}
+
+.extra {
+
+    float: right;
+    width: 30%;
+}
+.cverimge{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(assets/big_img.jpg);
+    background-size: cover;
+
+
+}
+.pictxt{
+    position: absolute;
+    top: 10px;
+    width: 200px;
 
 }
 /*id styling comes here
 dont mess up*/
 #gnome{
+
+    display: block;
+
+
 }
 #coverpic{
+    position: relative;
 
 }
 #post-heading{
+    position: relative;
 
 }
 #editables{
+    position: relative;
 
 }
 #iphonepic{
+    position: relative;
 
 }
 #shoes{
+    position: relative;
 
 }
 #ad{
+    position: relative;
 
 }
 #rcontent{
+    position: relative;
 
 }
 
