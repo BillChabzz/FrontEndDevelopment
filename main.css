@@ -5,6 +5,7 @@ body{
     background-color: #fff;
     width: auto;
     margin: 0;
+    font-family: sans-serif
 
 }
 header{
@@ -13,6 +14,7 @@ header{
 
 }
 section{
+    margin: 0;
     display: block;/*<!--placing sections in block-->*/
     width: 100%;
 }
@@ -22,7 +24,15 @@ img{
 
 
 }
+p{
+ line-height: 200%;
+ font-weight: 600;
+
+}
 footer{
+    float: right;
+    width: 100%;
+    background-color:
 
 }
 /*class styling starts here
@@ -30,7 +40,7 @@ as many as you like*/
 .container{
     margin-left: auto;
     margin-right: auto;
-    max-width: 900px;
+    max-width: 1000px;
 
 
 }
@@ -53,12 +63,37 @@ as many as you like*/
     float: right;
     width: 30%;
 }
+.btn{
+   -moz-border-radius: 2px;
+    -moz-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    -webkit-border-radius: 2px;
+    -webkit-transition: 0.2s ease-out;
+    background-clip: padding-box;
+    border: 2px solid #3487f7;
+    border-radius: 3px;
+    color: #3487f7;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    height: 36px;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    padding: 0 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s ease-out;
+}
 .cverimge{
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(assets/big_img.jpg);
     background-size: cover;
 
 
 }
+
 .pictxt{
     position: absolute;
     top: 10px;
@@ -89,14 +124,35 @@ as many as you like*/
 .iphtxt{
     float: left;
      width: 50%;
+     text-align: center;
 }
 .iphimg{
     float: left;
     width:50%;
 }
+.shoepic{
+    float: left;
+    width: 50%;
+}
+.shoetxt{
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+.shoetxt p{
+    padding-left: 40px;
+}
+.adz{
+    height: 100px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 /*id styling comes here
 dont mess up*/
 #gnome{
+
 
     display: block;
 
@@ -108,11 +164,18 @@ dont mess up*/
 }
 #post-heading{
     position: relative;
+    margin-left: 10px;
+}
+#post-heading h3{
+    padding-left: 20px;
 
 }
 #editables{
     position: relative;
 
+}
+#editables h2{
+    padding-left: 65px;
 }
 #iphonepic{
     position: relative;
@@ -120,14 +183,17 @@ dont mess up*/
 }
 #shoes{
     position: relative;
+    float: right;
 
 }
 #ad{
+    float: right;
     position: relative;
 
 }
 #rcontent{
     position: relative;
+    float: right;
 
 }
 
