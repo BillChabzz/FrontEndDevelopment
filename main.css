@@ -3,7 +3,7 @@ tags styling here*/
 body{
     position: relative;
     background-color: #fff;
-    width: 1000px;
+    width: auto;
     margin: 0;
 
 }
@@ -13,11 +13,12 @@ header{
 
 }
 section{
-    display: block;
-
+    display: block;/*<!--placing sections in block-->*/
+    width: 100%;
 }
 img{
     width: 100%;
+    margin: 0;
 
 
 }
@@ -63,6 +64,35 @@ as many as you like*/
     top: 10px;
     width: 200px;
 
+}
+.columns{
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    background: #FFF;
+    padding-left: px;
+
+
+}
+.image img{
+    position: relative;
+    width: 90px;
+    padding-left: 75px;
+
+}
+.image p{
+    text-align: center
+}
+.iphtxt{
+    float: left;
+     width: 50%;
+}
+.iphimg{
+    float: left;
+    width:50%;
 }
 /*id styling comes here
 dont mess up*/
