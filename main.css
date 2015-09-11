@@ -64,17 +64,20 @@ as many as you like*/
     float: right;
     width: 30%;
 }
+.extra p{
+    color:darkgray;
+    font-weight: 100;
+}
+.extra span{
+    color: #fff;
+    font-weight: 100;
+}
 .btn{
-   -moz-border-radius: 2px;
-    -moz-transition: 0.2s ease-out;
-    -ms-transition: 0.2s ease-out;
-    -o-transition: 0.2s ease-out;
-    -webkit-border-radius: 2px;
-    -webkit-transition: 0.2s ease-out;
-    background-clip: padding-box;
-    border: 2px solid #3487f7;
-    border-radius: 3px;
-    color: #3487f7;
+       background-clip: padding-box;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: #fff;
+    background-color: gray;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
@@ -86,7 +89,7 @@ as many as you like*/
     padding: 0 2rem;
     text-decoration: none;
     text-transform: uppercase;
-    transition: 0.2s ease-out;
+
 }
 .cverimge{
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(assets/big_img.jpg);
@@ -171,6 +174,7 @@ dont mess up*/
 }
 #coverpic{
     position: relative;
+    float: right;
 
 }
 #post-heading{
@@ -214,6 +218,11 @@ dont mess up*/
 #rcontent{
     position: relative;
     float: right;
+    margin-bottom: 50px;
+    margin-top: 50px;
 
+}
+#rcontent p{
+    font-weight: 100
 }
 
