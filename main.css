@@ -5,7 +5,9 @@ body{
     background-color: #fff;
     width: auto;
     margin: 0;
-    font-family: sans-serif
+    padding: 0;
+    height: auto;
+    font-family: sans-serif;
 
 }
 header{
@@ -102,6 +104,12 @@ as many as you like*/
     position: absolute;
     top: 10px;
     width: 200px;
+
+}
+.pictxt p{
+    font-weight: 100;
+    font-size: 10px;
+    color: gray;
 
 }
 .columns{
