@@ -1,2 +1,2 @@
-# FrontEndExercise
-front end development exerciese with provided pictures and assets
+# FrontEndDevelopment
+front end development projects with provided pictures and assets
